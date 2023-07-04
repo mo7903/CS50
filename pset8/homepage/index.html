@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Mohamed Gomaa </title>
+        <link rel = "icon" href = "https://e7.pngegg.com/pngimages/856/52/png-clipart-shutter-computer-icons-m-letter-logo-text-trademark-thumbnail.png" type = "image/x-icon">
+        <script>
+            function getInputFromTextBox() {
+                var input = document.getElementById("userInput").value;
+                alert("A confirmation email has been sent to" + input);
+                alert("welcome");
+            }
+        </script>
+    </head>
+
+    <body class ="bg-dark">
+        <h1>MOHAMED GOMAA</h1>
+        <div class = "container-fluid bg-light">
+            <nav class="nav nav-tabs nav-fill">
+                <a class="nav-link active" aria-current="page" href="index.html">Overview</a>
+                <a class="nav-link" href="leisure.html">Leisure</a>
+                <a class="nav-link" href="music.html">Music Taste</a>
+                <a class="nav-link" href="writing.html">Writings</a>
+              </nav>
+        </div>
+        <div class = "mt-2">
+            <img class = "w-50 img-fluid mx-auto" alt="Mohamed Gomaa" src="Gomaa.jpg">
+            <p class = "quote bg-dark">"If I went back in time, I wouldn’t change a thing."</p>
+        <div class="mt-2">
+            <img class = "w-50 img-fluid mx-auto" alt="Suited up" src="The Suit.jpg">
+        <p class = "quote bg-dark">
+            "Not only do they seek such unattainable goal, yet these creatures begin their journey with an ulterior motive of showing-off. It’s obvious they’re far from mindful, yet how can one seek perfection when one depends on another for recognizing such perfection. When was a perfect god ever needing of a reminder of His power?"
+        </p>
+        <p class = "text-white">Subscribe to the newsletter below:</p>
+        <form onsubmit="getInputFromTextBox(); return false;">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="Email">
+            <input type="submit">
+        </form>
+    </body>
+</html>
