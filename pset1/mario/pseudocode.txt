@@ -1,0 +1,5 @@
+ask the user for the number of rows
+check if that number is with 1~8
+if yes, move on. if not, go back to line 1
+print a number of "#" signs in rows with each row one "#" less than the one below it
+the number of rows must be equal to the number the user asked for
